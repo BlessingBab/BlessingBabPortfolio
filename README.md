@@ -2,15 +2,19 @@
 
 [<img src="https://img.shields.io/badge/License-MIT-yellow.svg">](https://opensource.org/licenses/MIT)
 
-## Direct Link to Application
-
-[Direct Link to site]
-
-## Screenshots
-
 ## Description
 
+As a future employer as a website developer, I have created an employee portfolio to my work samples. On this website my work samples can be review and assess by employers.
+
+## Usage
+
+![alt the webpage screepage](assets/images/Screenshot.png)
+
 ## Installation
+
+The project was uploaded to [GitHub](https://github.com/)
+
+The repository creted for the project is : [ https://blessingbab.github.io/BlessingBabPortfolio/ ](https://blessingbab.github.io/BlessingBabPortfolio/)
 
 ## License
 
