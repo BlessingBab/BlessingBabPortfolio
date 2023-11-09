@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 html{
-  height: 150%;
+  height: 120%;
   box-sizing: border-box;
 }
 /* Full Body Section Styling */
@@ -54,7 +54,7 @@ header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
   font-size: 1.3vw;
-  color: red;
+  color: rgb(72, 0, 255);
   text-decoration: none;
   border-bottom: 2px solid;
   padding-bottom: 2px;
@@ -68,6 +68,13 @@ section {
 }
 /* Poject Image Styling */
 
+.projects h3 {
+color: rgb(255, 0, 195);
+size: 100px ;
+font-weight: bold;
+margin: 6px;
+}
+
 /* Code Refactor Image Styling */
 .code-refactor {
   background-image: url(../images/Refactor-image.png);
@@ -76,13 +83,16 @@ section {
   height: 300px;
   margin-bottom: 2%;
   margin-right: 0.5%;
-  border: darkred 5px solid;
+  border: rgb(42, 0, 139) 5px solid;
   position: relative;}
 
   /* Code Refactor Hover Styling */
   .code-refactor:hover {
     opacity: 75%;
   }
+  .code-refactor a:hover {
+    color: greenyellow;
+    }
 
   /* Aiport Weather Image Styling */
   .aiport-weather {
@@ -92,13 +102,16 @@ section {
     height: 300px;
     margin-bottom: 2%;
     margin-right: 0.5%;
-    border: darkred 5px solid;
+    border: rgb(42, 0, 139) 5px solid;
     position: relative; }
 
     /* Aiport Weather Hover Styling */
     .aiport-weather:hover {
     opacity: 75%;
   }
+  .aiport-weather a:hover {
+    color: greenyellow;
+    }
 
 
 /* Life Saver Budget Image Styling */
@@ -109,14 +122,30 @@ section {
     height: 300px;
     margin-bottom: 2%;
     margin-right: 0.5%;
-    border: darkred 5px solid;
+    border: rgb(42, 0, 139) 5px solid;
     position: relative;}
 
  /* Life Saver Budget Hover Styling */
  .life-saver-budget:hover {
   opacity: 75%;
 }
-Contact .section {
+.life-saver-budget a:hover {
+color: greenyellow;
+}
+  contact .section-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 35px;
+    color: #fce138;
+    margin: 0 auto 0 auto;
+    padding-right: 15px;
+    width: 10%;
+    text-align: end;
+    border-right: #fce138 solid 3px;
+    left: 5px
+}
+.flex-row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -124,6 +153,20 @@ Contact .section {
   margin: 0 auto 0 auto;
   width: 90%;
 }
+
+.contact-me .section-title {
+  display: flex:
+  color: #763602;
+  font-size: 100px;
+  margin: 0;
+  width: 100%;}
+  
+
+
+/* Contact hover Styling */
+.flex-row a:hover {
+  color: yellow;}
+
 
 /* Footer Section Styling */
 footer {
