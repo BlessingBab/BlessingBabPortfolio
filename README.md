@@ -16,6 +16,17 @@ The project was uploaded to [GitHub](https://github.com/)
 
 The repository creted for the project is : [ https://blessingbab.github.io/BlessingBabPortfolio/ ](https://blessingbab.github.io/BlessingBabPortfolio/)
 
+## Process
+
+```
+Load developer's profolio
+Developer's name, photo, and links.
+Created and link navigation bars
+Linked previous projects
+Comment all changes in HTML and CSS
+Created a README
+```
+
 ## License
 
 MIT
